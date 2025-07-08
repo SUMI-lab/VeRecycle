@@ -1,0 +1,623 @@
+{
+    "task_decomposition": {
+        "data": [
+            [
+                "initial_node",
+                0
+            ],
+            [
+                "target_node",
+                8
+            ]
+        ],
+        "directed": true,
+        "multigraph": false,
+        "elements": {
+            "nodes": [
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    0.4,
+                                    0.4
+                                ],
+                                [
+                                    0.6,
+                                    0.6
+                                ]
+                            ]
+                        ],
+                        "id": "0",
+                        "value": 0,
+                        "name": "0"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    1.4,
+                                    0.4
+                                ],
+                                [
+                                    1.6,
+                                    0.6
+                                ]
+                            ]
+                        ],
+                        "id": "1",
+                        "value": 1,
+                        "name": "1"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    2.4,
+                                    0.4
+                                ],
+                                [
+                                    2.6,
+                                    0.6
+                                ]
+                            ]
+                        ],
+                        "id": "2",
+                        "value": 2,
+                        "name": "2"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    0.4,
+                                    1.4
+                                ],
+                                [
+                                    0.6,
+                                    1.6
+                                ]
+                            ]
+                        ],
+                        "id": "3",
+                        "value": 3,
+                        "name": "3"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    1.4,
+                                    1.4
+                                ],
+                                [
+                                    1.6,
+                                    1.6
+                                ]
+                            ]
+                        ],
+                        "id": "4",
+                        "value": 4,
+                        "name": "4"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    2.4,
+                                    1.4
+                                ],
+                                [
+                                    2.6,
+                                    1.6
+                                ]
+                            ]
+                        ],
+                        "id": "5",
+                        "value": 5,
+                        "name": "5"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    0.4,
+                                    2.4
+                                ],
+                                [
+                                    0.6,
+                                    2.6
+                                ]
+                            ]
+                        ],
+                        "id": "6",
+                        "value": 6,
+                        "name": "6"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    1.4,
+                                    2.4
+                                ],
+                                [
+                                    1.6,
+                                    2.6
+                                ]
+                            ]
+                        ],
+                        "id": "7",
+                        "value": 7,
+                        "name": "7"
+                    }
+                },
+                {
+                    "data": {
+                        "region": [
+                            [
+                                [
+                                    2.4,
+                                    2.4
+                                ],
+                                [
+                                    2.6,
+                                    2.6
+                                ]
+                            ]
+                        ],
+                        "id": "8",
+                        "value": 8,
+                        "name": "8"
+                    }
+                }
+            ],
+            "edges": [
+                {
+                    "data": {
+                        "source": 0,
+                        "target": 1
+                    }
+                },
+                {
+                    "data": {
+                        "source": 0,
+                        "target": 3
+                    }
+                },
+                {
+                    "data": {
+                        "source": 1,
+                        "target": 2
+                    }
+                },
+                {
+                    "data": {
+                        "source": 2,
+                        "target": 5
+                    }
+                },
+                {
+                    "data": {
+                        "source": 3,
+                        "target": 4
+                    }
+                },
+                {
+                    "data": {
+                        "source": 4,
+                        "target": 5
+                    }
+                },
+                {
+                    "data": {
+                        "source": 4,
+                        "target": 7
+                    }
+                },
+                {
+                    "data": {
+                        "source": 5,
+                        "target": 8
+                    }
+                },
+                {
+                    "data": {
+                        "source": 7,
+                        "target": 8
+                    }
+                }
+            ]
+        }
+    },
+    "low_level_control": {
+        "(0, 1)": {
+            "original": {
+                "lower_bound": 0.90625,
+                "checkpoint": "0-1/CEGIS_p=0.90625/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room2": {
+                "lower_bound": 0.79296875,
+                "checkpoint": "0-1/Room2/CEGIS_p=0.79296875/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0.79296875,
+                "checkpoint": "0-1/Room3/CEGIS_p=0.79296875/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0.79296875,
+                "checkpoint": "0-1/Room4/CEGIS_p=0.79296875/final_ckpt"
+            },
+            "Room5": {
+                "lower_bound": 0.79296875,
+                "checkpoint": "0-1/Room5/CEGIS_p=0.79296875/final_ckpt"
+            },
+            "Room6": {
+                "lower_bound": 0.849609375,
+                "checkpoint": "0-1/Room6/CEGIS_p=0.849609375/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.79296875,
+                "checkpoint": "0-1/Room7/CEGIS_p=0.79296875/final_ckpt"
+            }
+        },
+        "(0, 3)": {
+            "original": {
+                "lower_bound": 0.875,
+                "checkpoint": "0-3/CEGIS_p=0.875/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.875,
+                "checkpoint": "0-3/Room1/CEGIS_p=0.875/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0.7109375,
+                "checkpoint": "0-3/Room2/CEGIS_p=0.7109375/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room4": {
+                "lower_bound": 0.765625,
+                "checkpoint": "0-3/Room4/CEGIS_p=0.765625/final_ckpt"
+            },
+            "Room5": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "0-3/Room5/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room6": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "0-3/Room6/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "0-3/Room7/CEGIS_p=0.8203125/final_ckpt"
+            }
+        },
+        "(1, 2)": {
+            "original": {
+                "lower_bound": 0.875,
+                "checkpoint": "1-2/CEGIS_p=0.875/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room2": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room3": {
+                "lower_bound": 0.7109375,
+                "checkpoint": "1-2/Room3/CEGIS_p=0.7109375/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "1-2/Room4/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room5": {
+                "lower_bound": 0.65625,
+                "checkpoint": "1-2/Room5/CEGIS_p=0.65625/final_ckpt"
+            },
+            "Room6": {
+                "lower_bound": 0.65625,
+                "checkpoint": "1-2/Room6/CEGIS_p=0.65625/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.7109375,
+                "checkpoint": "1-2/Room7/CEGIS_p=0.7109375/final_ckpt"
+            }
+        },
+        "(2, 5)": {
+            "original": {
+                "lower_bound": 0.78125,
+                "checkpoint": "2-5/CEGIS_p=0.78125/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.732421875,
+                "checkpoint": "2-5/Room1/CEGIS_p=0.732421875/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room3": {
+                "lower_bound": 0.78125,
+                "checkpoint": "2-5/Room3/CEGIS_p=0.78125/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0.732421875,
+                "checkpoint": "2-5/Room4/CEGIS_p=0.732421875/final_ckpt"
+            },
+            "Room5": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room6": {
+                "lower_bound": 0.78125,
+                "checkpoint": "2-5/Room6/CEGIS_p=0.78125/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.732421875,
+                "checkpoint": "2-5/Room7/CEGIS_p=0.732421875/final_ckpt"
+            }
+        },
+        "(3, 4)": {
+            "original": {
+                "lower_bound": 0.875,
+                "checkpoint": "3-4/CEGIS_p=0.875/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "3-4/Room1/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "3-4/Room2/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room4": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room5": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "3-4/Room5/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room6": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "3-4/Room6/CEGIS_p=0.8203125/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.8203125,
+                "checkpoint": "3-4/Room7/CEGIS_p=0.8203125/final_ckpt"
+            }
+        },
+        "(4, 5)": {
+            "original": {
+                "lower_bound": 0.875,
+                "checkpoint": "4-5/CEGIS_p=0.875/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.65625,
+                "checkpoint": "4-5/Room1/CEGIS_p=0.65625/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0.6015625,
+                "checkpoint": "4-5/Room2/CEGIS_p=0.6015625/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0.765625,
+                "checkpoint": "4-5/Room3/CEGIS_p=0.765625/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room5": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room6": {
+                "lower_bound": 0.6015625,
+                "checkpoint": "4-5/Room6/CEGIS_p=0.6015625/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.7109375,
+                "checkpoint": "4-5/Room7/CEGIS_p=0.7109375/final_ckpt"
+            }
+        },
+        "(4, 7)": {
+            "original": {
+                "lower_bound": 0.78125,
+                "checkpoint": "4-7/CEGIS_p=0.78125/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.537109375,
+                "checkpoint": "4-7/Room1/CEGIS_p=0.537109375/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0.48828125,
+                "checkpoint": "4-7/Room2/CEGIS_p=0.48828125/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0.5859375,
+                "checkpoint": "4-7/Room3/CEGIS_p=0.5859375/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room5": {
+                "lower_bound": 0.634765625,
+                "checkpoint": "4-7/Room5/CEGIS_p=0.634765625/final_ckpt"
+            },
+            "Room6": {
+                "lower_bound": 0.537109375,
+                "checkpoint": "4-7/Room6/CEGIS_p=0.537109375/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0,
+                "checkpoint": null
+            }
+        },
+        "(5, 8)": {
+            "original": {
+                "lower_bound": 0.65625,
+                "checkpoint": "5-8/CEGIS_p=0.65625/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.451171875,
+                "checkpoint": "5-8/Room1/CEGIS_p=0.451171875/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0.57421875,
+                "checkpoint": "5-8/Room2/CEGIS_p=0.57421875/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0.41015625,
+                "checkpoint": "5-8/Room3/CEGIS_p=0.41015625/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0.533203125,
+                "checkpoint": "5-8/Room4/CEGIS_p=0.533203125/final_ckpt"
+            },
+            "Room5": {
+                "lower_bound": 0,
+                "checkpoint": null
+            },
+            "Room6": {
+                "lower_bound": 0.4921875,
+                "checkpoint": "5-8/Room6/CEGIS_p=0.4921875/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0.533203125,
+                "checkpoint": "5-8/Room7/CEGIS_p=0.533203125/final_ckpt"
+            }
+        },
+        "(7, 8)": {
+            "original": {
+                "lower_bound": 0.78125,
+                "checkpoint": "7-8/CEGIS_p=0.78125/final_ckpt"
+            },
+            "Room1": {
+                "lower_bound": 0.634765625,
+                "checkpoint": "7-8/Room1/CEGIS_p=0.634765625/final_ckpt"
+            },
+            "Room2": {
+                "lower_bound": 0.68359375,
+                "checkpoint": "7-8/Room2/CEGIS_p=0.68359375/final_ckpt"
+            },
+            "Room3": {
+                "lower_bound": 0.68359375,
+                "checkpoint": "7-8/Room3/CEGIS_p=0.68359375/final_ckpt"
+            },
+            "Room4": {
+                "lower_bound": 0.5859375,
+                "checkpoint": "7-8/Room4/CEGIS_p=0.5859375/final_ckpt"
+            },
+            "Room5": {
+                "lower_bound": 0.634765625,
+                "checkpoint": "7-8/Room5/CEGIS_p=0.634765625/final_ckpt"
+            },
+            "Room6": {
+                "lower_bound": 0.68359375,
+                "checkpoint": "7-8/Room6/CEGIS_p=0.68359375/final_ckpt"
+            },
+            "Room7": {
+                "lower_bound": 0,
+                "checkpoint": null
+            }
+        }
+    },
+    "high_level_control": {
+        "original": [
+            0,
+            3,
+            4,
+            7,
+            8
+        ],
+        "Room1": [
+            0,
+            3,
+            4,
+            7,
+            8
+        ],
+        "Room2": [
+            0,
+            3,
+            4,
+            5,
+            8
+        ],
+        "Room3": [
+            0,
+            1,
+            2,
+            5,
+            8
+        ],
+        "Room4": [
+            0,
+            1,
+            2,
+            5,
+            8
+        ],
+        "Room5": [
+            0,
+            3,
+            4,
+            7,
+            8
+        ],
+        "Room6": [
+            0,
+            3,
+            4,
+            7,
+            8
+        ],
+        "Room7": [
+            0,
+            3,
+            4,
+            5,
+            8
+        ]
+    },
+    "lower_bound": {
+        "original": 0.4673004150390625,
+        "Room1": 0.24471664801239967,
+        "Room2": 0.2014507446438074,
+        "Room3": 0.1806453801691532,
+        "Room4": 0.2540325658628717,
+        "Room5": 0.2711349225137383,
+        "Room6": 0.2470696927048266,
+        "Room7": 0.25508373510092497
+    }
+}
