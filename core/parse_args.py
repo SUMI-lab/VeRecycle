@@ -57,7 +57,7 @@ def parse_arguments(linfty, datetime, cwd):
                         help="Number of parallel environments in PPO (for policy initialization")
 
     ### JAX PPO arguments
-    parser.add_argument('--ppo_max_policy_lipschitz', type=float, default=10,
+    parser.add_argument('--ppo_max_policy_lipschitz', type=float, default=10.0,
                         help="Max. Lipschitz constant for policy to train towards in PPO (below this value, loss is zero)")
     parser.add_argument('--ppo_num_steps_per_batch', type=int, default=2048,
                         help="Total steps for rollout in PPO (for policy initialization")
@@ -103,7 +103,7 @@ def parse_arguments(linfty, datetime, cwd):
                         help="When the certificate Lipschitz coefficient is below this value, then the loss is zero")
     parser.add_argument('--loss_lipschitz_policy', type=float, default=4,
                         help="When the policy Lipschitz coefficient is below this value, then the loss is zero")
-    parser.add_argument('--expDecr_multiplier', type=float, default=10,
+    parser.add_argument('--expDecr_multiplier', type=float, default=10.0,
                         help="Multiply the weighted counterexample expected decrease loss by this value.")
     parser.add_argument('--debug_train_step', action=argparse.BooleanOptionalAction, default=False,
                         help="If True, generate additional plots for the samples used in the last train step of an iteration")
